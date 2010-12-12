@@ -48,7 +48,7 @@ App.Ui.TouchBox = Ext.extend(Ext.Container, {
 
 	// @private
 	afterRender: function() {
-		App.Ui.Playground.superclass.afterRender.call(this);
+		App.Ui.superclass.afterRender.call(this);
 		App.setActiveEl(this);
 	},
 	
