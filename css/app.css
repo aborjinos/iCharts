@@ -1,0 +1,13 @@
+/*
+ * Application styles
+*/
+
+.background {
+	background: #fff url(../images/square.png);*/
+	background-repeat:repeat;
+	background-position: center;
+}
+
+.x-htmlcontent {
+	padding:0;
+}

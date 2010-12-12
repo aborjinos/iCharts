@@ -1,0 +1,82 @@
+/**
+ *	Toolbox styles
+ */
+ 
+
+/*
+ * ^small: for tool box list
+*/
+.smallTitle {
+	text-indent: 0px;
+	font-weight: bold;
+}
+
+.smallSquare{
+	background-image: url('../images/toolbox/small/blue_square.jpg');
+    background-repeat: no-repeat;
+	background-position:center;
+	width:50px;
+    height:50px;
+}
+
+.smallIphone{
+    background-image: url('../images/toolbox/small/iphone.png');
+	background-repeat: no-repeat;
+	background-position:center;
+	width:50px;
+    height:50px;
+}
+
+.smallKeyboard{
+    width:50px;
+    height:50px;
+    background-image: url('../images/toolbox/small/fourtyfive.png');
+    background-repeat: no-repeat;
+	background-position:center;
+}
+
+/*
+ * ^orig: for sketch area
+*/ 
+.origIphone{
+    width:389px;
+    height:215px;
+	display:block;
+	position: absolute;
+	opacity: 1;
+    background-image: url(../images/toolbox/orig/iphone-empty.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align:center;
+    font-size: 20px;
+    color: red;
+	padding-top: 25px;
+}
+
+.origKeyboard{
+    width:300px;
+    height:100px;
+    display: block;
+	opacity: 1;
+	text-align:center;
+	font-size: 20px;
+	color: red;
+	padding-top: 20px;
+    position: absolute;
+    background-image: url(../images/toolbox/orig/touchtype-iphone.png);
+    background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.origSquare {
+	position: absolute;
+	border: 1px solid #800000;
+	background: #C6D92C;
+	opacity: 1;
+	font-size: 20px;
+	padding-top: 25px;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+}
